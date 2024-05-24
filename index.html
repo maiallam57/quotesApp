@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/css/main.css">
+        <title>Quotes | Mai Allam</title>
+    </head>
+    <body>
+
+        <!--* ======= CARD ======= -->
+        <div class="container p-5 cover-content">
+            <div class="card text-center bg-gray box-shadow-full">
+                <div class="card-header p-3">
+                    <h1>Quote of the Day</h1>
+                </div>
+                <div class="card-body p-5">
+                    <h5 class="card-title mb-5 text-secondary">Press the
+                        button
+                        below to recieve a random quote!</h5>
+                    <h3 id="quoteLable" class="card-text"></h3>
+                    <h6 id="author"></h6>
+                </div>
+
+                <div class="card-footer text-muted p-3">
+                    <a href="#" id="newQuote" onclick="generateQuote()"
+                        class="btn btn-primary">New
+                        Quote</a>
+                </div>
+            </div>
+        </div>
+
+        
+        <script src="/js/bootstrap.bundle.min.js"></script>
+        <script src="/js/script.js"></script>
+
+    </body>
+</html>
