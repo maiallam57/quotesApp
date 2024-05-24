@@ -15,6 +15,10 @@ body {
 
 /* ====================================== */
 /* ======> ANIMATION FOR CARD <====== */
+.card{
+    background-color: lavender;
+}
+
 .cover-content h1,
 .cover-content h2,
 .cover-content h5 {
